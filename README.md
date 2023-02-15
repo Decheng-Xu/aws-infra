@@ -5,7 +5,9 @@
 1. Firstly, change current directory to "aws-infra" folder
 
 
-2. execute the following command    
+
+2. execute the following command
+
 ```terraform init
    terraform validate
    terraform plan
