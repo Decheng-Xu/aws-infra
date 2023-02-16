@@ -44,9 +44,16 @@ resource "aws_route_table" "public_rt" {
   }
 
   vpc_id = aws_vpc.vpc.id
+
   tags = {
     Name = "route-public-table"
   }
+
+
+  tags = {
+    Name = "route-public-table"
+  }
+
 }
 
 # Associate the Public Route Table with Public Subnets
@@ -89,7 +96,9 @@ resource "aws_subnet" "private_subnet" {
 resource "aws_route_table" "private_route_table" {
   vpc_id = aws_vpc.vpc.id
   tags = {
+
     Name = "route-private-table"
+
   }
 }
 

@@ -65,5 +65,3 @@ variable "region" {
 
 
 
-
-
