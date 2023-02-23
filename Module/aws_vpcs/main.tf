@@ -53,6 +53,7 @@ resource "aws_route_table" "public_rt" {
 
 
 
+
 }
 
 # Associate the Public Route Table with Public Subnets
