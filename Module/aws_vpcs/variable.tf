@@ -74,21 +74,13 @@ variable "db-username" {
 }
 
 variable "AWS_ACCESS_KEY_ID" {
-<<<<<<< HEAD
    default= "123"
-=======
-   default= "AKIASXLAYFSPGTHERZUJ"
->>>>>>> bb90cae (HW5_RDS)
   description = "id"
   type = string
 }
 
 variable "AWS_SECRET_ACCESS_KEY" {
-<<<<<<< HEAD
    default= "345"
-=======
-   default= "h2UT4l41LyxA9O4igX9ZQKNC04w5CTLAmon5MYLC"
->>>>>>> bb90cae (HW5_RDS)
   description = "key"
   type = string
 }
@@ -100,7 +92,6 @@ variable "hostname" {
 }
 
 
-<<<<<<< HEAD
 # variable "root_zone_id" {
 #   type = string
 #   default = "Z00938262063SRV55QZB9"
@@ -142,8 +133,6 @@ variable "application_port" {
   type = number
 }
 
-=======
->>>>>>> bb90cae (HW5_RDS)
 
 
 
